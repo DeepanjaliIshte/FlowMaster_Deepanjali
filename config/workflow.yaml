@@ -1,0 +1,9 @@
+name: loan-application
+steps:
+  - id: verification
+    commandTopic: verification.commands
+    resultTopic: verification.results
+    compensationTopic: verification.compensations
+  - id: credit_check
+    commandTopic: credit.commands
+    resultTopic: credit.results

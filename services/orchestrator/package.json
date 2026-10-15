@@ -1,0 +1,13 @@
+{
+  "name": "flowmaster-orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.13.1",
+    "yaml": "^2.7.0"
+  }
+}
