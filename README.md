@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FlowMaster — Distributed Task Orchestrator
 
 FlowMaster is a distributed task orchestration engine built with **Node.js**, **Express**, **Apache Kafka**, **PostgreSQL**, and the **Saga Pattern** (orchestration-based). It executes multi-step business workflows with durable persistence, crash-recovery mechanisms, and database-backed persistent idempotency.
@@ -348,3 +349,7 @@ CREATE TABLE IF NOT EXISTS processed_commands (
 | **Prometheus Metrics** | **NOT IMPLEMENTED** | `/health` implemented, but Prometheus `/metrics` endpoint not configured. |
 | **Redis / BullMQ** | **NOT IMPLEMENTED** | Architectural decision: Kafka is used as the distributed message bus; Redis was not introduced to avoid unnecessary architectural overhead. |
 | **Database Sharding** | **NOT IMPLEMENTED** | Kafka uses 3 partitions; PostgreSQL operates as a single primary instance with indexing. |
+=======
+# FlowMaster_Deepanjali
+Event-driven workflow orchestration using Node.js, Kafka, PostgreSQL, and the Saga pattern.
+>>>>>>> fec7a97e3238f4656870edc2aae2aa55e3bfbf0c
